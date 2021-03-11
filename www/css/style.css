@@ -7,6 +7,36 @@
     
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Header */
+
+
 a.nav-link.active {
     color: #1F1534;
 }
@@ -62,8 +92,136 @@ a.nav-link.active {
     font-size: 18px;
     line-height: 60px;
     font-style: normal;
-    mix-blend-mode: normal;
 }
 
 
+.container {
+    margin: 0 auto;
+}
 
+/* Service */
+
+.text {
+    width: 952px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 192px;
+    color: black;
+}
+
+.hr-text {
+    width: 56px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    border: 2px solid;
+    background-color: black;
+}
+
+.description {
+    color: #7D7987;
+    text-align: center;
+    tab-size: 18px;
+}
+
+.btn-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card */
+
+
+.card {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    max-width: 350px;
+    min-height: 354px;
+    left: 200px;
+    margin-top: 80px;
+}
+
+.card-image {
+    width: 90px;
+    height: 90px;
+    margin-top: 54px;
+    margin-left: 37px;
+    margin-bottom: 22px;
+}
+
+.card-text {
+    margin-left: 39px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+.card-description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Block advantages */
+
+.block-adv {
+    margin-top: 220px;
+
+}
+.adv-header>span {
+    font-size: 36px;
+}
+.adv-text>p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.adv-btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background: #fff;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    font-size: 18px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/* Block download */
+
+.block-download {
+    margin-top: 265px;
+
+}
+.download-header>span {
+    font-size: 36px;
+}
+.download-text>p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.download-btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background: #fff;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    font-size: 18px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
