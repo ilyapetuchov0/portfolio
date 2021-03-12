@@ -225,3 +225,32 @@ a.nav-link.active {
     font-style: normal;
     font-weight: 700;
 }
+
+/* Footer */
+
+.footer {
+    margin-top: 200px;
+    min-height: 400px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer-wrap {
+    margin-bottom: 100px;
+}
+
+
+.foot-text {
+    margin-top: 17px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.copy {
+    margin-top: 30px;
+}
+
+.text-foot {
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+}
